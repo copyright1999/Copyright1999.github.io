@@ -112,8 +112,5 @@ service-worker: true
 #         title: "Apple Developer",
 #         href: "https://developer.apple.com/"
 #     }
-<<<<<<< 10eb86df70eda840898787bacb92b6ca9a6e98a3
 # ]
-=======
-# ]
->>>>>>> update_config.yml
+
