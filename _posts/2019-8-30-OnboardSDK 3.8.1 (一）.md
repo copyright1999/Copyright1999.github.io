@@ -1,20 +1,19 @@
-```
 ---
-layout:     post   			   
-title:     OnboardSDK 3.8.1（一）	 
-subtitle:  stm32下开发sdk代码的准备工作  
-date:       2019-08-30				
-author:     婷                              
-header-img: img/18.jpg 	
-catalog: true 						
-tags:								
+layout: post
+title:  OnboardSDK 3.8.1（一）
+subtitle:stm32下开发sdk代码的准备工作
+date:2019-8-30
+author:婷
+header-img:img/18.jpg
+catalog:true
+tags:
 
 - SDK
 - stm32
 - 飞控
-
 ---
-```
+
+
 
 
 
