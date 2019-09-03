@@ -49,7 +49,7 @@ $ sudo add-apt-repository 'deb https://typora.io/linux ./'
 
 
 
-嗯？看不懂？~~原谅我是一个刚接触Linux的白痴~~
+嗯？看不懂？~~原谅我是一个刚接触Linux的大白~~
 
 我就想着跳过直接输入接下来的命令
 

@@ -36,7 +36,7 @@ tags:								#标签
 
 然后开始写代码  `ctrl+c` `ctrl+v`      ~~纠正一下应该是uart4（自己写错了懒得改了）~~
 
-然后记得在usart4.h里面说明  `using namespace  DJI::OSDK`这样子就可以使用DJI的类
+记得在usart4.h里面说明  `using namespace  DJI::OSDK`这样子就可以使用DJI的类
 
 ![4.png](https://i.loli.net/2019/09/01/eo8WtQ4GKCRcMvD.png)
 
