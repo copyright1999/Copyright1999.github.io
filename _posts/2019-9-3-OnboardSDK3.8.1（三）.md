@@ -74,7 +74,7 @@ tags:								#标签
 
 ![004.png](https://i.loli.net/2019/09/03/DyZ7RMb8Juokc2Y.png)
 
-然后是各种初始化之后，跑`telemetry sample`遥测样本（跑哪个样本可以自己选择，main.cpp开头的`sample_flag`可以自己选择。
+然后是各种初始化之后，跑`telemetry sample`遥测样本（跑哪个样本可以自己选择，main.cpp开头的`sample_flag`可以自己选择。）
 
 ![005.png](https://i.loli.net/2019/09/03/HYBQ8wmXbgyvERs.png)
 
