@@ -78,8 +78,8 @@ kramdown:
 # ba_track_id: 19a337f58211e7d2461f5ecb76323274
 
 # # Google Analytics
- ga_track_id: 'UA-160426866-1'            
- ga_domain: auto               
+ga_track_id: 'UA-160426866-1'            
+ga_domain: auto               
 
 
 # visitors count
