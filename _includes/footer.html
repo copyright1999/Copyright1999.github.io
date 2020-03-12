@@ -100,6 +100,33 @@
                         src="https://ghbtns.com/github-btn.html?user={{ site.github_username }}&repo={{ site.github_username }}.github.io&type=star&count=true" >
                     </iframe>
                 </p>
+                <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+                <p></p> 
+                <p class="copyright text-muted">
+                <span id="busuanzi_container_site_pv">博客总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+                <span class="post-meta-divider">|</span>
+                <span id="busuanzi_container_site_uv">当前访客数<span id="busuanzi_value_site_uv"></span>人</span>
+                </p>
+                <p class="copyright text-muted">
+                <span id="span_total_time"></span>
+                </p>
+                <script type="text/javascript">
+                function runtime(){
+                X = new Date("08/14/2019 20:00:00");
+                Y = new Date();
+                T = (Y.getTime()-X.getTime());
+                M = 24*60*60*1000;
+                a = T/M;
+                A = Math.floor(a);
+                b = (a-A)*24;
+                B = Math.floor(b);
+                c = (b-B)*60;
+                C = Math.floor((b-B)*60);
+                D = Math.floor((c-C)*60);
+                document.getElementById("span_total_time").innerHTML = "我的博客运行了"+A+"天"+B+"小时"+C+"分"+D+"秒";
+                }
+                setInterval(runtime, 1000);                
+                </script>
             </div>
         </div>
     </div>
@@ -267,4 +294,6 @@
     });
 </script>
 {% endif %}
+
+
 
