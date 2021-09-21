@@ -63,12 +63,12 @@ disqus_username: disqus_rI6KcwpsoE
 # Gitalk
 gitalk:
    enable: true    #是否开启Gitalk评论
-   clientID: f0c4001e4570abdf0db                            #生成的clientID
-   clientSecret: de8fd6732acbc923dabc8a8eda6aa60c8e91c06e    #生成的clientSecret
+   clientID: 'f0c4001e4570abdf0db'                            #生成的clientID
+   clientSecret: 'de8fd6732acbc923dabc8a8eda6aa60c8e91c06e'    #生成的clientSecret
    repo: copyright1999.github.io    #仓库名称
    owner: copyright1999    #github用户名
    admin: copyright1999
-   distractionFreeMode: true #是否启用类似FB的阴影遮罩
+   distractionFreeMode: false #是否启用类似FB的阴影遮罩
 
 
 # # 统计
