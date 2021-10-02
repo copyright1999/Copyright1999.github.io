@@ -12,8 +12,8 @@ github_repo: "https://github.com/copyright1999/Copyright1999.github.io.git" # yo
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "better later than never"
-sidebar-avatar: /img/my_avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "无拘无束如沧海之风 纵情闪耀若夜空之星"
+sidebar-avatar: /img/pipi.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
