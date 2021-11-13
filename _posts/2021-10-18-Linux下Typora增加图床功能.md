@@ -63,8 +63,6 @@ tags:
 
 
 
-
-
 ###　安装PicGo
 
 打开这个[下载链接](https://github.com/Molunerfinn/PicGo/releases)，选择`AppImage`后缀的安装包下载
