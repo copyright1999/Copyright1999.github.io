@@ -64,31 +64,71 @@ function video_embed() {
 }
 video_embed();
 
+// function mp3_embed() {
+//     var p = document.getElementsByTagName('p');
+//     for(var i = 0; i < p.length; i++) {
+//         if(p[i].innerHTML.indexOf('.mp3') !== -1) {
+//             var str = p[i].innerHTML.split('?');
+//             if(str.length == 1) str[1] = '';
+//             var str1 = str[1];
+//             str1 = str1.replace('&','').replace('&','');
+//             str1 = str1.replace('autoplay=1','').replace('autoplay=0','');
+//             str1 = str1.replace('loop=1','').replace('loop=0','');
+//             str1 = str1.replace('controls=0','').replace('controls=1','');
+
+//             if (str[0].lastIndexOf('.mp3', str[0].length - 4) === str[0].length - 4 && str1.length == 0) {
+//                 if(str[1].indexOf('autoplay=1') !== -1) var autoplay=1; else var autoplay=0;
+//                 if(str[1].indexOf('loop=1') !== -1) var loop=1; else var loop=0;
+//                 if(str[1].indexOf('controls=0') !== -1) var controls=0; else var controls=1;
+//                 var newInnerHTML = '<audio';
+//                 if(autoplay==1) newInnerHTML += ' autoplay';
+//                 if(loop==1) newInnerHTML += ' loop';
+//                 if(controls==1) newInnerHTML += ' controls';
+//                 newInnerHTML += '><source src="'+str[0]+'" type="audio/mpeg">Your browser does not support the audio element.</audio>';
+//                 p[i].innerHTML = newInnerHTML;
+//             }
+//         }
+//     }
+// }
+// mp3_embed();
+
+
 function mp3_embed() {
     var p = document.getElementsByTagName('p');
-    for(var i = 0; i < p.length; i++) {
-        if(p[i].innerHTML.indexOf('.mp3') !== -1) {
-            var str = p[i].innerHTML.split('?');
-            if(str.length == 1) str[1] = '';
-            var str1 = str[1];
-            str1 = str1.replace('&','').replace('&','');
-            str1 = str1.replace('autoplay=1','').replace('autoplay=0','');
-            str1 = str1.replace('loop=1','').replace('loop=0','');
-            str1 = str1.replace('controls=0','').replace('controls=1','');
-
-            if (str[0].lastIndexOf('.mp3', str[0].length - 4) === str[0].length - 4 && str1.length == 0) {
-                if(str[1].indexOf('autoplay=1') !== -1) var autoplay=1; else var autoplay=0;
-                if(str[1].indexOf('loop=1') !== -1) var loop=1; else var loop=0;
-                if(str[1].indexOf('controls=0') !== -1) var controls=0; else var controls=1;
-                var newInnerHTML = '<audio';
-                if(autoplay==1) newInnerHTML += ' autoplay';
-                if(loop==1) newInnerHTML += ' loop';
-                if(controls==1) newInnerHTML += ' controls';
-                newInnerHTML += '><source src="'+str[0]+'" type="audio/mpeg">Your browser does not support the audio element.</audio>';
-                p[i].innerHTML = newInnerHTML;
+    for (var i = 0; i < p.length; i++) {
+        if (p[i].innerHTML.indexOf('.mp3') !== -1) {
+            var mp3 = p[i].innerHTML.split('?');
+            var mp3url = mp3[0];
+            var mp3par = ' ';
+            if (mp3.length == 2) {
+                if (mp3[1].indexOf('autoplay=1') > -1) mp3par += ' autoplay ';
+                if (mp3[1].indexOf('loop=1') > -1) mp3par += ' loop ';
+                if (!(mp3[1].indexOf('controls=0') > -1)) mp3par += ' controls ';
+                if (mp3[1].indexOf('preload=1') > -1) mp3par += ' preload ';
+                console.log(mp3par)
             }
+            var newInnerHTML = `<audio ${mp3par} > <source src="${mp3url}" type="audio/mpeg">Your browser does not support the audio element.</audio>  `;
+            p[i].innerHTML = newInnerHTML;
         }
     }
 }
 mp3_embed();
+
+function mp4_embed() {
+    var p = document.getElementsByTagName('p');
+    for (var i = 0; i < p.length; i++) {
+        if (p[i].innerHTML.indexOf('.mp4') !== -1) {
+            var mp4 = p[i].innerHTML.split('?');
+            var mp4url = mp4[0];
+            var mp4par = "controls"
+            var newInnerHTML = `<video ${mp4par} style="width:100%; height:100%; object-fit: fill;"> <source src="${mp4url}" type="video/mp4"> Your browser does not support the video tag. </video>`;
+            p[i].innerHTML = newInnerHTML;
+        }
+    }
+}
+mp4_embed();
+
+
+
+
 </script>
