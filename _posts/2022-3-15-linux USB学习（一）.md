@@ -2,7 +2,7 @@
 layout:     post   				   
 title:      linux USB学习（一）			
 subtitle:   USB驱动实验
-date:       2020-03-15				
+date:       2022-03-15				
 author:     婷                               
 header-img: img/66.jpg 	
 catalog: true 						
