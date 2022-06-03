@@ -29,13 +29,16 @@ tags:
 
 来到[官网](http://www.cygwin.com/)，选择红框的安装程序
 
-![image-20220116232351880](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows%E5%AE%89%E8%A3%85cygwin/image-20220116232351880.png)
+
+
+
+![image-20220116232351880](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows_cygwin/image-20220116232351880.png)
 
 
 
 下载后运行，选择下一步
 
-![image-20220116233053767](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows%E5%AE%89%E8%A3%85cygwin/image-20220116233053767.png)
+![image-20220116233053767](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows_cygwin/image-20220116233053767.png)
 
 
 
@@ -43,69 +46,69 @@ tags:
 
 选择`Install from Internet`
 
-![image-20220116233119335](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows%E5%AE%89%E8%A3%85cygwin/image-20220116233119335.png)
+![image-20220116233119335](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows_cygwin/image-20220116233119335.png)
 
  
 
 选择`Root Directory`，这里可以理解为你要把一个`linux`系统安装在哪里，或者说你想把根文件系统放在哪里，有点类似我们安装`wsl`那样
 
-![image-20220116233228659](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows%E5%AE%89%E8%A3%85cygwin/image-20220116233228659.png)
+![image-20220116233228659](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows_cygwin/image-20220116233228659.png)
 
 
 
 选择`Local Package Directory`，相当于是把一些程序包存放在本地
 
-![image-20220116233248625](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows%E5%AE%89%E8%A3%85cygwin/image-20220116233248625.png)
+![image-20220116233248625](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows_cygwin/image-20220116233248625.png)
 
 
 
 网络代理的选择，这里是直连
 
-![image-20220116233327199](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows%E5%AE%89%E8%A3%85cygwin/image-20220116233327199.png)
+![image-20220116233327199](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows安装cygwin/image-20220116233327199.png)
 
 
 
 镜像列表的选择，选择第一个单击即可
 
-![image-20220116233407395](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows%E5%AE%89%E8%A3%85cygwin/image-20220116233407395.png)
+![image-20220116233407395](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows_cygwin/image-20220116233407395.png)
 
 
 
 然后等待安装列表弹出来
 
-![image-20220116233449601](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows%E5%AE%89%E8%A3%85cygwin/image-20220116233449601.png)
+![image-20220116233449601](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows安装cygwin/image-20220116233449601.png)
 
 
 
 选项出来后，直接点击下一步，一般都是默认安装些常用的命令
 
-![image-20220116233519646](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows%E5%AE%89%E8%A3%85cygwin/image-20220116233519646.png)
+![image-20220116233519646](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows_cygwin/image-20220116233519646.png)
 
 
 
-![image-20220116233618748](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows%E5%AE%89%E8%A3%85cygwin/image-20220116233618748.png)
+![image-20220116233618748](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows安装cygwin/image-20220116233618748.png)
 
 
 
 等待安装
 
-![image-20220116233647210](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows%E5%AE%89%E8%A3%85cygwin/image-20220116233647210.png)
+![image-20220116233647210](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows_cygwin/image-20220116233647210.png)
 
 
 
 安装完成后，勾选创建快捷菜单
 
-![image-20220116233725910](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows%E5%AE%89%E8%A3%85cygwin/image-20220116233725910.png)
+![image-20220116233725910](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows安装cygwin/image-20220116233725910.png)
 
 点开桌面的快捷方式查看，出现了`$`符号，也就是说安装成功了
 
-![image-20220116233809881](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows%E5%AE%89%E8%A3%85cygwin/image-20220116233809881.png)
+![image-20220116233809881](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows安装cygwin/image-20220116233809881.png)
 
 
 
 这个是之前安装的时候选择的“根文件系统”路径
 
-![image-20220116233931398](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows%E5%AE%89%E8%A3%85cygwin/image-20220116233931398.png)
+![image-20220116233931398](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows安装cygwin/image-20220116233931398.png)
 
 
 
@@ -117,25 +120,25 @@ tags:
 
 找到`Devel`展开，从中选择`binutils`，`gcc` ，`mingw` ，`gdb`进行安装，找到以下选项，点击右边的`skip`，使其变为版本号即可
 
-![image-20220116233949957](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows%E5%AE%89%E8%A3%85cygwin/image-20220116233949957.png)
+![image-20220116233949957](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows安装cygwin/image-20220116233949957.png)
 
 
 
-![image-20220116234017975](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows%E5%AE%89%E8%A3%85cygwin/image-20220116234017975.png)
+![image-20220116234017975](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows安装cygwin/image-20220116234017975.png)
 
 
 
-![image-20220116234032572](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows%E5%AE%89%E8%A3%85cygwin/image-20220116234032572.png)
+![image-20220116234032572](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows安装cygwin/image-20220116234032572.png)
 
  
 
-![image-20220116234058716](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows%E5%AE%89%E8%A3%85cygwin/image-20220116234058716.png)
+![image-20220116234058716](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows_cygwin/image-20220116234058716.png)
 
 
 
 
 
-![image-20220116234123494](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows%E5%AE%89%E8%A3%85cygwin/image-20220116234123494.png)
+![image-20220116234123494](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows安装cygwin/image-20220116234123494.png)
 
  
 
@@ -143,13 +146,13 @@ tags:
 
 选择完毕后点击确认
 
-![image-20220116234145333](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows%E5%AE%89%E8%A3%85cygwin/image-20220116234145333.png)
+![image-20220116234145333](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows安装cygwin/image-20220116234145333.png)
 
 
 
 等待安装完成
 
-![image-20220116234202074](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows%E5%AE%89%E8%A3%85cygwin/image-20220116234202074.png)
+![image-20220116234202074](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows安装cygwin/image-20220116234202074.png)
 
 
 
@@ -163,11 +166,11 @@ tags:
 
 
 
-![image-20220117003358722](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows%E5%AE%89%E8%A3%85cygwin/image-20220117003358722.png)
+![image-20220117003358722](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows安装cygwin/image-20220117003358722.png)
 
 
 
-![image-20220117003419747](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows%E5%AE%89%E8%A3%85cygwin/image-20220117003419747.png)
+![image-20220117003419747](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows安装cygwin/image-20220117003419747.png)
 
  
 
@@ -181,19 +184,19 @@ chere -i -t mintty -s bash
 
  
 
-![image-20220117003456694](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows%E5%AE%89%E8%A3%85cygwin/image-20220117003456694.png)
+![image-20220117003456694](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows安装cygwin/image-20220117003456694.png)
 
 
 
 这时候右击菜单就已经有`Bash Prompt Here`选项
 
-![image-20220117003916674](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows%E5%AE%89%E8%A3%85cygwin/image-20220117003916674.png)
+![image-20220117003916674](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows_cygwin/image-20220117003916674.png)
 
  
 
 接下来给他增加个图标，命令行输入`regedit`
 
-![image-20220117003931242](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows%E5%AE%89%E8%A3%85cygwin/image-20220117003931242.png)
+![image-20220117003931242](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows_cygwin/image-20220117003931242.png)
 
 
 
@@ -209,7 +212,7 @@ chere -i -t mintty -s bash
 
 
 
-![image-20220117003952868](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows%E5%AE%89%E8%A3%85cygwin/image-20220117003952868.png)
+![image-20220117003952868](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows_cygwin/image-20220117003952868.png)
 
 
 
@@ -223,17 +226,17 @@ chere -i -t mintty -s bash
 
 新建一个字符串值，名为`Icon`
 
-![image-20220117004006886](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows%E5%AE%89%E8%A3%85cygwin/image-20220117004006886.png)
+![image-20220117004006886](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows安装cygwin/image-20220117004006886.png)
 
 
 
-![image-20220117004021646](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows%E5%AE%89%E8%A3%85cygwin/image-20220117004021646.png)
+![image-20220117004021646](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows安装cygwin/image-20220117004021646.png)
 
 
 
 创建好后双击，填入图标的文件路径`C:\cygwin64\Cygwin.ico`
 
-![image-20220117003631318](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows%E5%AE%89%E8%A3%85cygwin/image-20220117003631318.png)
+![image-20220117003631318](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows_cygwin/image-20220117003631318.png)
 
 
 
@@ -245,7 +248,7 @@ chere -i -t mintty -s bash
 
 右击桌面上的快捷方式，点击`兼容性`，如图勾上红框中的选项
 
-![image-20220117003559263](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows%E5%AE%89%E8%A3%85cygwin/image-20220117003559263.png)
+![image-20220117003559263](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows_cygwin/image-20220117003559263.png)
 
 
 
