@@ -32,19 +32,19 @@ tags:
 
 来到[官网](https://molunerfinn.com/PicGo/)，点击**免费下载**
 
-![image-20220221011149091](https://gitee.com/copyright1999/image-typora-markdown/raw/master/windows_typora_picgo/image-20220221011149091.png)
+![image-20220221011149091](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows_typora_picgo/image-20220221011149091.png)
 
 
 
 点进去后选择红框中的安装包
 
-![image-20220221011440516](https://gitee.com/copyright1999/image-typora-markdown/raw/master/windows_typora_picgo/image-20220221011440516.png)
+![image-20220221011440516](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows_typora_picgo/image-20220221011440516.png)
 
 
 
 下载后正常安装后，在安装的文件夹中点击`PicGo.exe`
 
-![image-20220221012000397](https://gitee.com/copyright1999/image-typora-markdown/raw/master/windows_typora_picgo/image-20220221012000397.png)
+![image-20220221012000397](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows_typora_picgo/image-20220221012000397.png)
 
 
 
@@ -52,7 +52,7 @@ tags:
 
 
 
-![image-20220221012037380](https://gitee.com/copyright1999/image-typora-markdown/raw/master/windows_typora_picgo/image-20220221012037380.png)
+![image-20220221012037380](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows_typora_picgo/image-20220221012037380.png)
 
 
 
@@ -66,7 +66,7 @@ tags:
 
 
 
-![image-20220221012142003](https://gitee.com/copyright1999/image-typora-markdown/raw/master/windows_typora_picgo/image-20220221012142003.png)
+![image-20220221012142003](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows_typora_picgo/image-20220221012142003.png)
 
 正常安装后，命令行输入，如果出现版本信息，就说明安装成功了
 
@@ -77,7 +77,7 @@ node -v
 
 
 
-![image-20220221012932267](https://gitee.com/copyright1999/image-typora-markdown/raw/master/windows_typora_picgo/image-20220221012932267.png)
+![image-20220221012932267](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows_typora_picgo/image-20220221012932267.png)
 
 ## gitee仓库设置
 
@@ -89,19 +89,19 @@ node -v
 
 点击`PicGo`图标，来到**插件设置**，选择红框的插件（注意一定要看清楚是红框中的插件）
 
-![image-20220221012547916](https://gitee.com/copyright1999/image-typora-markdown/raw/master/windows_typora_picgo/image-20220221012547916.png)
+![image-20220221012547916](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows_typora_picgo/image-20220221012547916.png)
 
 
 
 安装完成后点开**gitee设置**
 
-![image-20220221013402693](https://gitee.com/copyright1999/image-typora-markdown/raw/master/windows_typora_picgo/image-20220221013402693.png)
+![image-20220221013402693](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows_typora_picgo/image-20220221013402693.png)
 
 
 
 在上一步的**gitee仓库设置**中将我们得到的令牌放到`token`中，然后填写必要的信息，再点击**确定**，**设为默认图床**即可
 
-![image-20220222005623255](https://gitee.com/copyright1999/image-typora-markdown/raw/master/windows_typora_picgo/image-20220222005623255.png)
+![image-20220222005623255](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows_typora_picgo/image-20220222005623255.png)
 
 
 
@@ -111,13 +111,13 @@ node -v
 
 打开`Typora`，点击**格式**-->**图像**-->**全局图像设置**，按照红框中的设置
 
-![image-20220221013204889](https://gitee.com/copyright1999/image-typora-markdown/raw/master/windows_typora_picgo/image-20220221013204889.png)
+![image-20220221013204889](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows_typora_picgo/image-20220221013204889.png)
 
 
 
 设置完成后，点击**验证图片上传选项**，成功后，会有如下提示：
 
-![image-20220222005741589](https://gitee.com/copyright1999/image-typora-markdown/raw/master/windows_typora_picgo/image-20220222005741589.png)
+![image-20220222005741589](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/windows_typora_picgo/image-20220222005741589.png)
 
 
 

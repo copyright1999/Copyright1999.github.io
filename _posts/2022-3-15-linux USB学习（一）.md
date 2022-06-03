@@ -38,15 +38,15 @@ Device Drivers -> HID support -> HID bus support -> Generic HID driver
 
 
 
-![image-20220227213116084](https://gitee.com/copyright1999/image-typora-markdown/raw/master/usb_learn1/image-20220227213116084.png)
+![image-20220227213116084](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/usb_learn1/image-20220227213116084.png)
 
 
 
-![image-20220227213156890](https://gitee.com/copyright1999/image-typora-markdown/raw/master/usb_learn1/image-20220227213156890.png)
+![image-20220227213156890](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/usb_learn1/image-20220227213156890.png)
 
 
 
-![image-20220227213251328](https://gitee.com/copyright1999/image-typora-markdown/raw/master/usb_learn1/image-20220227213251328.png)
+![image-20220227213251328](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/usb_learn1/image-20220227213251328.png)
 
 
 
@@ -54,11 +54,11 @@ Device Drivers -> HID support -> HID bus support -> Generic HID driver
 
 路径跟前面一样，这里选择`USB HID support->USB HID transport layer`
 
-![image-20220227213515497](https://gitee.com/copyright1999/image-typora-markdown/raw/master/usb_learn1/image-20220227213515497.png)
+![image-20220227213515497](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/usb_learn1/image-20220227213515497.png)
 
 
 
-![image-20220227213540962](https://gitee.com/copyright1999/image-typora-markdown/raw/master/usb_learn1/image-20220227213540962.png)
+![image-20220227213540962](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/usb_learn1/image-20220227213540962.png)
 
 
 
@@ -66,13 +66,13 @@ Device Drivers -> HID support -> HID bus support -> Generic HID driver
 
 查看加载的驱动
 
-![image-20220313213718735](https://gitee.com/copyright1999/image-typora-markdown/raw/master/usb_learn1/image-20220313213718735.png)
+![image-20220313213718735](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/usb_learn1/image-20220313213718735.png)
 
 
 
 查看热插拔信息
 
-![image-20220227213925853](https://gitee.com/copyright1999/image-typora-markdown/raw/master/usb_learn1/image-20220227213925853.png)
+![image-20220227213925853](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/usb_learn1/image-20220227213925853.png)
 
 
 
@@ -88,13 +88,13 @@ Device Drivers -> HID support -> HID bus support -> Generic HID driver
 
 鼠标插入识别后，`/dev/input`目录下新增了`event3`和`mouse1`
 
-![image-20220227215311424](https://gitee.com/copyright1999/image-typora-markdown/raw/master/usb_learn1/image-20220227215311424.png)
+![image-20220227215311424](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/usb_learn1/image-20220227215311424.png)
 
 
 
 输入`hexdump event3`可以看到一些信息，至于是什么就没有去深究了，可以理解为是这些`HID`驱动的一个接口输出的信息。**（个人理解）**
 
-![image-20220227215451596](https://gitee.com/copyright1999/image-typora-markdown/raw/master/usb_learn1/image-20220227215451596.png)
+![image-20220227215451596](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/usb_learn1/image-20220227215451596.png)
 
 
 
@@ -108,15 +108,15 @@ Device Drivers -> HID support -> HID bus support -> Generic HID driver
 
 既然前面说的**使能通用的HID驱动**，那肯定有**特殊的HID驱动**，点击`Special HID drivers`进去看看
 
-![image-20220227215954708](https://gitee.com/copyright1999/image-typora-markdown/raw/master/usb_learn1/image-20220227215954708.png)
+![image-20220227215954708](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/usb_learn1/image-20220227215954708.png)
 
 可以查看`Apple{i,Power,Mac}Books`这项内核描述
 
-![image-20220227220055576](https://gitee.com/copyright1999/image-typora-markdown/raw/master/usb_learn1/image-20220227220055576.png)
+![image-20220227220055576](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/usb_learn1/image-20220227220055576.png)
 
 主要还是针对苹果的产品，不得不感慨内核的强大
 
-![image-20220227220123538](https://gitee.com/copyright1999/image-typora-markdown/raw/master/usb_learn1/image-20220227220123538.png)
+![image-20220227220123538](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/usb_learn1/image-20220227220123538.png)
 
 
 
@@ -130,17 +130,17 @@ Device Drivers -> HID support -> HID bus support -> Generic HID driver
 
 `U 盘`使用 `SCSI `协议，因此要先使能 `Linux `内核中的 `SCSI `协议，配置路径如下：` Device Drivers -> SCSI device support ->  SCSI disk support` 
 
-![image-20220227234103371](https://gitee.com/copyright1999/image-typora-markdown/raw/master/usb_learn1/image-20220227234103371.png)
+![image-20220227234103371](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/usb_learn1/image-20220227234103371.png)
 
 #### 使能U盘驱动
 
 我们还需要使能 `USB Mass Storage`，也就是 `USB` 接口的大容量存储设备，配置路径如下： `Device Drivers -> USB support -> Support for Host-side USB ->  USB Mass Storage support `
 
-![image-20220227234216771](https://gitee.com/copyright1999/image-typora-markdown/raw/master/usb_learn1/image-20220227234216771.png)
+![image-20220227234216771](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/usb_learn1/image-20220227234216771.png)
 
 点击这个`USB Mass Storage support`的配置项，也是提及到要使能`SCSI`协议
 
-![image-20220227234252715](https://gitee.com/copyright1999/image-typora-markdown/raw/master/usb_learn1/image-20220227234252715.png)
+![image-20220227234252715](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/usb_learn1/image-20220227234252715.png)
 
 
 
@@ -148,11 +148,11 @@ Device Drivers -> HID support -> HID bus support -> Generic HID driver
 
 查看加载的驱动
 
-![image-20220313213921771](https://gitee.com/copyright1999/image-typora-markdown/raw/master/usb_learn1/image-20220313213921771.png)
+![image-20220313213921771](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/usb_learn1/image-20220313213921771.png)
 
 准备一个 `FAT32` 格式的U盘，`NTFS` 和 `exFAT` 由于版权问题所以在 `Linux `下支持的不完善，操作的话可能会有问题，比如只能读，不能写或者无法识别等。
 
-![image-20220313214108568](https://gitee.com/copyright1999/image-typora-markdown/raw/master/usb_learn1/image-20220313214108568.png)
+![image-20220313214108568](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/usb_learn1/image-20220313214108568.png)
 
 
 
@@ -163,15 +163,15 @@ mkdir /mnt/usb_disk -p
 mount /dev/sdb1 /mnt/usb_disk/ -t vfat -o iocharset=utf8
 ```
 
-![image-20220313215946374](https://gitee.com/copyright1999/image-typora-markdown/raw/master/usb_learn1/image-20220313215946374.png)
+![image-20220313215946374](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/usb_learn1/image-20220313215946374.png)
 
 对`U盘`内的空文件`readme2.txt`写入`test`，然后`sync`，再执行卸载命令。拔出`U盘`。
 
-![image-20220313220323470](https://gitee.com/copyright1999/image-typora-markdown/raw/master/usb_learn1/image-20220313220323470.png)
+![image-20220313220323470](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/usb_learn1/image-20220313220323470.png)
 
 重新插入`U盘`，重新挂载，查看是否写入。
 
-![image-20220313220440476](https://gitee.com/copyright1999/image-typora-markdown/raw/master/usb_learn1/image-20220313220440476.png)
+![image-20220313220440476](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/usb_learn1/image-20220313220440476.png)
 
 
 
@@ -185,7 +185,7 @@ mount /dev/sdb1 /mnt/usb_disk/ -t vfat -o iocharset=utf8
 
 
 
-![image-20220313221806767](https://gitee.com/copyright1999/image-typora-markdown/raw/master/usb_learn1/image-20220313221806767.png)
+![image-20220313221806767](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/usb_learn1/image-20220313221806767.png)
 
 
 
@@ -199,17 +199,17 @@ drivers/usb/gadget/legacy/g_audio.ko
 
 升级内核后，依次加载上述三个驱动，但是在加载的时候 ，发现加载第一个`libcomposite.ko`就出现了符号表的错误，最后是找到了`configfs.ko`才成功加载驱动。
 
-![image-20220314000452883](https://gitee.com/copyright1999/image-typora-markdown/raw/master/usb_learn1/image-20220314000452883.png)
+![image-20220314000452883](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/usb_learn1/image-20220314000452883.png)
 
 
 
 加载的时候报错
 
-![image-20220314000640313](https://gitee.com/copyright1999/image-typora-markdown/raw/master/usb_learn1/image-20220314000640313.png)
+![image-20220314000640313](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/usb_learn1/image-20220314000640313.png)
 
 根据关键词查询`config_group_init`
 
-![image-20220314000733751](https://gitee.com/copyright1999/image-typora-markdown/raw/master/usb_learn1/image-20220314000733751.png)
+![image-20220314000733751](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/usb_learn1/image-20220314000733751.png)
 
 最后将`fs/configfs`这个路径下的`configfs.ko`加载之后就不会报错了，具体啥原因还不清楚，但是符号表的问题总算是解决了。
 
@@ -223,7 +223,7 @@ drivers/usb/gadget/legacy/g_audio.ko
 
 **模拟 U 盘**实验就是将开发板当做一个 **U 盘**，配置 Linux，路径如下： `Device Drivers -> USB support  -> USB Gadget Support  -> USB Gadget Drivers ->Mass Storage Gadget `
 
-![image-20220313221644152](https://gitee.com/copyright1999/image-typora-markdown/raw/master/usb_learn1/image-20220313221644152.png)
+![image-20220313221644152](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/usb_learn1/image-20220313221644152.png)
 
 
 
@@ -248,11 +248,11 @@ insmod g_mass_storage.ko file=/dev/sdb1 removable=1
 
 加载 `g_mass_storage.ko `的时候使用 `file` 参数指定使用的大容量存储设备，加载成功后可以看到电脑识别到了U盘设备
 
-![image-20220315004211606](https://gitee.com/copyright1999/image-typora-markdown/raw/master/usb_learn1/image-20220315004211606.png)
+![image-20220315004211606](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/usb_learn1/image-20220315004211606.png)
 
 打开内容查看
 
-![image-20220315004219852](https://gitee.com/copyright1999/image-typora-markdown/raw/master/usb_learn1/image-20220315004219852.png)
+![image-20220315004219852](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/usb_learn1/image-20220315004219852.png)
 
 
 
