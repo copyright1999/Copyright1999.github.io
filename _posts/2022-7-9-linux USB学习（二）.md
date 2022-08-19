@@ -291,10 +291,10 @@ struct usb_device_id {
    *
    * This macro is used to create a struct usb_device_id that matches a
    * specific device.
-   */
-  #define USB_DEVICE(vend, prod) \
-          .match_flags = USB_DEVICE_ID_MATCH_DEVICE, \
-          .idVendor = (vend), \
+  */
+  #define USB_DEVICE(vend, prod)  \
+          .match_flags = USB_DEVICE_ID_MATCH_DEVICE,  \
+          .idVendor = (vend),  \
           .idProduct = (prod)    
   ```
 
