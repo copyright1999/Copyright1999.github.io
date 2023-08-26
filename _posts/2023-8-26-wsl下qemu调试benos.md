@@ -26,7 +26,7 @@ tags:
 
 ### 交叉编译工具链
 
-
+安装`aarch64-linux-gnu-gcc`，这里就不赘述了
 
 ### gdb安装
 
