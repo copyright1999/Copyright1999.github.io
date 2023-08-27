@@ -93,17 +93,11 @@ https://github.com/runninglinuxkernel/arm64_programming_practice/tree/main/chapt
 
 ## 调试
 
-调试命令如下，就是在前面的运行命令加上了`-S -s`
+调试命令如下，用`elf`文件，然后加上了`-S -s`选项
 
 ```bash
- ./qemu-system-aarch64 -machine raspi4b2g -nographic -kernel ~/benos/benos.bin -S -s
+ ./qemu-system-aarch64 -machine raspi4b2g -nographic -kernel ~/benos/benos.elf -S -s
 ```
-
-
-
-这个时候就会停在这个界面
-
-![image-20230820183625160](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/wsl_qemu_benos/image-20230820183625160.png)
 
 
 
