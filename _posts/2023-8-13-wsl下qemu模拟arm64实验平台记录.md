@@ -47,6 +47,18 @@ git clone git@github.com:runninglinuxkernel/runninglinuxkernel_5.0.git
 
 
 
+若有需要，修改内核配置
+
+```bash
+./run_rlk_arm64.sh menuconfig
+```
+
+
+
+![image-20240210140608083](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/wsl_qemu_arm64/image-20240210140608083.png)
+
+
+
 直接运行脚本，编译`kernel`。
 
 ```bash
