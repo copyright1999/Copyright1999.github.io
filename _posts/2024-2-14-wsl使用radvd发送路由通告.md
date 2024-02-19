@@ -157,6 +157,8 @@ sudo /etc/init.d/radvd stop
 
 编辑 `/etc/radvd.conf` 文件，增加红框所示的内容
 
+> RDNSS 是一种用于在 SLAAC 中提供域名解析服务的方式。它通过在 Router Advertisement 报文中包含 DNS 服务器地址，为主机提供域名解析服务，而不需要额外的 DHCPv6 服务器。在RFC6106中在5.1章节标题为Recursive DNS Server Option。
+
 ![image-20240214161750863](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/ipv6/image-20240214161750863.png)
 
 
@@ -242,7 +244,7 @@ https://radvd.litech.org/
 - [抓包文件链接](https://github.com/copyright1999/image-typora-markdown/tree/main/ipv6)
 - [radvd配置介绍](https://blog.csdn.net/ttood/article/details/119213677)
 - [radvd配置dns信息](https://blog.csdn.net/zdl244/article/details/109140794)
-
+- [RFC6106](https://datatracker.ietf.org/doc/html/rfc6106)
 
 
 
