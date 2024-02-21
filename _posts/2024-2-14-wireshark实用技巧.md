@@ -44,3 +44,51 @@ tags:
 
 
 
+
+
+
+
+## 单独导出特定分组
+
+比如我们经常筛选出我们需要的包，把这些需要的再单独提取出来成一个`pcap`文件
+
+![image-20240221234126433](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/wireshark/image-20240221234126433.png)
+
+点击**文件**，选择**导出特定分组**
+
+![image-20240221234203947](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/wireshark/image-20240221234203947.png)
+
+
+
+
+
+界面如下，这里选择的是导出`Displayed`的所有包，也就是通过我们的过滤规则的所有包
+
+![image-20240221233913772](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/wireshark/image-20240221233913772.png)
+
+
+
+而这个是指选择我们点击查看的那个包，比如导出特定分组前我点击了`No.6`的包进行查看，就导出这个
+
+![image-20240221233927607](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/wireshark/image-20240221233927607.png)
+
+这里则是选择范围，这个范围就是所有包的序列号范围，如下我们需要的包序列号范围为`1-81`，而实际过滤后只剩下`75`个包
+
+![image-20240221234042018](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/wireshark/image-20240221234042018.png)
+
+如果选择`Captured`就把`1-81`的所有包导出来
+
+![image-20240221234020595](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/wireshark/image-20240221234020595.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
