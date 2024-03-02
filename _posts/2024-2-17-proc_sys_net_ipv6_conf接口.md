@@ -18,7 +18,7 @@ tags:
 
 ## 简介
 
-主要介绍`/proc/sys/net/ipv6/conf` 目录相关参数的含义说明，以及一部分的内核代码小小的分析
+主要介绍`/proc/sys/net/ipv6/conf` 目录相关参数的含义说明，以及一部分的内核代码小小的分析。关于相关参数的更详细说明可见[内核参考文档](https://www.kernel.org/doc/Documentation/networking/ip-sysctl.txt)。
 
 
 
@@ -28,7 +28,10 @@ tags:
 
 | 选项                      | 描述                                               | 备注                                                         |
 | ------------------------- | -------------------------------------------------- | ------------------------------------------------------------ |
-| **accept_ra**             | 控制是否接受路由器通告（Router Advertisement）消息 | 1，接受路由器通告；0，不接受路由器通告                       |
+| **accept_ra**             | 控制是否接受路由器通告（Router Advertisement）消息 | 1，接受路由器通告；0，不接受路由器通告；2，忽略forwarding配置，永远接受RA |
+| **accept_ra_pinfo**       | 控制是否使用RA消息中的前缀                         | 1，接受；0，不接受                                           |
+| **accept_ra_defrtr**      | 控制是否使用RA消息中的默认网关                     | 1，接受；0，不接受                                           |
+| **accept_ra_mtu**         | 控制是否使用RA消息中的MTU                          | 1，接受；0，不接受                                           |
 | **accept_redirects**      | 控制是否接受 IPv6 重定向消息                       | 1，接受重定向消息； 0，不接受重定向消息                      |
 | **autoconf**              | 控制是否自动配置 IPv6 地址                         | 1，允许自动配置地址；0，禁止自动配置地址。                   |
 | **disable_ipv6**          | 控制是否完全禁用 IPv6                              | 1，禁用 IPv6；0，启用 IPv6                                   |
@@ -38,6 +41,8 @@ tags:
 | **proxy_ndp**             | 控制是否启用 IPv6 邻居代理功能                     | 1，启用邻居代理； 0，禁用邻居代理。                          |
 | **router_probe_interval** | 这个选项控制路由器探测的时间间隔                   | 当一个路由器失效时，系统会定期发送路由器探测消息以检测路由器是否重新可用 |
 | **router_solicitations**  | 控制是否发送路由器请求消息。                       | 0 ，禁止发送路由器请求消息；设置为大于 0 的值则启用路由器请求消息，并设置请求的数量。 |
+
+
 
 
 
@@ -157,6 +162,11 @@ ipv6_add_dev
 
 - [参考链接一](https://blog.csdn.net/sinat_20184565/article/details/113731345)
 - [参考链接二](https://tldp.org/HOWTO/Linux+IPv6-HOWTO/ch11s02.html)
+- [内核参考文档](https://www.kernel.org/doc/Documentation/networking/ip-sysctl.txt)
+
+
+
+
 
 
 
