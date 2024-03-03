@@ -2,7 +2,7 @@
 layout:     post   				    
 title:     rock3a更新sd卡uboot跟kernel			
 subtitle:  
-date:       2023-03-03				
+date:       2024-03-03				
 author:     婷                               
 header-img: img/122.png 	
 catalog: true 						
