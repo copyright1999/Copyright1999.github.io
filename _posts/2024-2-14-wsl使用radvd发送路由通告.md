@@ -215,7 +215,27 @@ cat /etc/resolv.conf
 
 
 
+## radvd RA消息抑制
 
+`RA`消息抑制其实就是`radvd`不再一直往链路上发送`RA`报文，只有收到`RS`报文才会回复`RA`报文，这样就不会浪费链路上的带宽。打开此功能只需要将配置文件中的`AdvSendAdvert`从`on`改为`off`即可
+
+![image-20240406132152925](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/ipv6/image-20240406132152925.png)
+
+
+
+![image-20240406131834714](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/ipv6/image-20240406131834714.png)
+
+
+
+![image-20240406132138506](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/ipv6/image-20240406132138506.png)
+
+
+
+## radvd前缀存活时间
+
+按照参考链接，可以修改`AdvValidLifetime`跟`AdvPreferredLifetime`
+
+![image-20240406194204542](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/ipv6/image-20240406194204542.png)
 
 
 
