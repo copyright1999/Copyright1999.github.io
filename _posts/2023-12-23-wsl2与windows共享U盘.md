@@ -80,6 +80,14 @@ sudo update-alternatives --install /usr/local/bin/usbip usbip /usr/lib/linux-too
 
 
 
+## 重启
+
+上述`windows`跟`wsl`准备工作做好后，电脑**一定要**重启，不然可能会有奇奇怪怪的问题
+
+
+
+
+
 ## wsl接入usb设备
 
 `windows`这边用管理员模式打开`Powershell`，输入`usbipd wsl list`，可以看到`BUSID`为`4-1`的`U`盘设备
