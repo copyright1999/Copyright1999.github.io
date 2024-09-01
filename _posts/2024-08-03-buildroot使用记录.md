@@ -276,6 +276,10 @@ tar -xf rootfs.tar -C ./tmp_rootfs/
 
 ## 技巧 
 
+### 打补丁
+
+
+
 ### 镜像源配置 
 
 
@@ -290,13 +294,19 @@ tar -xf rootfs.tar -C ./tmp_rootfs/
 
 
 
-
-
 ### 设置root密码
 
 
 
 ### rootfs扩容
+
+
+
+
+
+### 更新
+
+
 
 
 
@@ -335,4 +345,10 @@ tar -xf rootfs.tar -C ./tmp_rootfs/
 
 
 ![image-20240718231416532](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/buildroot/image-20240718231416532.png)
+
+
+
+
+
+
 
