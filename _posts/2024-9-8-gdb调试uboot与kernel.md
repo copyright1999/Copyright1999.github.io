@@ -68,6 +68,18 @@ add-symbol-file ~/raspi4b-project/uboot/u-boot 0x7f21000
 
 
 
+当然还有另外的方法，不用输入`bdinfo`也可以知道重定位后的地址，因为`bd_info`是在结构体`gd_t`中的，而`gd_t`的地址存放在`x18`寄存器中，所以我们偏移一下就可以算出来了
+
+![image-20240928164616799](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/gdb_uboot_kernel/image-20240928164616799.png)
+
+跟`bdinfo`命令中的信息对上了
+
+![image-20240928164733715](https://raw.githubusercontent.com/copyright1999/image-typora-markdown/main/gdb_uboot_kernel/image-20240928164733715.png)
+
+
+
+
+
 ## kernel
 
 如果想要`gdb`调试`kernel`，需要打开如下内核配置
