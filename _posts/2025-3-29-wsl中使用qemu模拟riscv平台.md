@@ -2,7 +2,7 @@
 layout:     post   				    
 title:      wsl中使用qemu模拟riscv平台
 subtitle:  
-date:       2025-0329				
+date:       2025-03-29				
 author:     婷                               
 header-img: img/147.png
 catalog: true 						
