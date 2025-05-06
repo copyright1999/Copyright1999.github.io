@@ -2,7 +2,7 @@
 title: Blog
 SEOTitle: 只道寻常 | Blog
 header-img: img/59.jpg
-email: wushuting1999@gmail.com
+email: gaoh508@gmail.com
 description: "simple coder."
 keyword: " 刑满释放证办理处"
 url: "http://Copyright1999.github.io"          # your host, for absolute URL
@@ -19,8 +19,8 @@ sidebar-avatar: /img/pipi.jpg      # use absolute URL, seeing it's used in both 
 
 # SNS settings
 RSS: false
-weibo_username:   3412709632
-zhihu_username:     xing-man-shi-fang-zheng-ban-li-chu
+# weibo_username:   3412709632
+# zhihu_username:     xing-man-shi-fang-zheng-ban-li-chu
 github_username:    copyright1999
 #facebook_username: 
 #jianshu_username:   
